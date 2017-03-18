@@ -1,0 +1,188 @@
+@font-face {
+  font-family: "Alfa";
+	src: url('Font-Text/AlfaSlabOne-Regular.ttf');
+}
+@font-face {
+	font-family: "ChangaOne";
+	src: url('Font-Text/ChangaOne-Regular.ttf');
+}
+@font-face {
+	font-family: "Orbitron";
+	src: url('Font-Text/Orbitron-Regular.ttf');
+}
+@font-face {
+	font-family: "Pacifico";
+	src: url('Font-Text/Pacifico-Regular.ttf');
+}
+@font-face {
+	font-family: "Patua";
+	src: url('Font-Text/PatuaOne-Regular.ttf');
+}
+@font-face {
+	font-family: "Unica";
+	src: url('Font-Text/UnicaOne-Regular.ttf');
+}
+
+.nav-side{
+	width: 200px;
+	background-color: #2D3736;
+	position: absolute;
+	left: -275px;
+	z-index: 999;
+}
+.menuCont{
+
+	padding-top: 10px;
+	font-size: 15px;
+}
+.menuCont>li{
+	font-family: "Unica";
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.menuCont li a{
+	color: #FFF;
+	font-size: 20px;
+}
+.menuCont li a:hover{
+	text-decoration: none;
+	color: #5FBA95;
+}
+.menuIcon{
+	position: absolute;
+	padding: 10px;
+	background-color: #2D3736;
+	z-index: 999;
+}
+.glyphicon{
+	font-size: 20px;
+	color: #2CB87F;
+	cursor: default;
+}
+.wrapped{
+	position: relative;
+}
+.header{
+	background-image: url('headerbg.jpg');
+	background-color: #939795;
+	background-blend-mode: luminosity;
+	height: 500px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+	border-bottom: solid 3px #000;
+}
+.header h1{
+	font-family: "Patua";
+	font-size: 70px;
+	color: #2CB87F;
+}
+.header>hr{
+	color: #fff;
+	width: 50%;
+}
+.header h4{
+	font-family: "Pacifico";
+	font-size: 30px;
+	color: #FFF;
+}
+.posts{
+    background-color: #e8e8e8;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.sidebar{
+	padding-top:10px;
+	padding-bottom: 10px;
+	padding-right: 0px;
+	background-color: #e8e8e8;
+}
+.sidetitle{
+	font-family: "Alfa";
+	padding: 2px;
+	background-color: #393939;
+	color: #2CB87F;
+	text-align: center;
+	font-size: 20px;
+}
+.sidecont{
+	font-family: "Orbitron";
+	background-color: #2CB87F;
+	color: #393939;
+	font-size: 15px;
+	padding: 5px;
+}
+.sidecont ul{
+	list-style: none;
+}
+.sidecont ul li a{
+	text-decoration: none;
+	color: #000;
+}
+.eleWrap{
+	margin-top: 10px;
+	padding: 0px;
+	overflow: hidden;
+}
+.eleWrap form{
+	padding: 5px;
+}
+.row{
+	width: 100%;
+}
+.widget_search{
+	border: 0px;
+}
+.post{
+	margin-top: 5px;
+	background-color: #f6f6f6;
+}
+.post h3 a{
+	font-family: "ChangaOne";
+	font-size: 40px;
+	text-decoration: none;
+	color: #000;
+}
+.post hr{
+    border: solid 1px #009768;
+}
+.cat{
+	font-family: "Pacifico";
+	font-size: 15px;
+}
+.cat a{
+   color: #009768;
+	text-decoration: none;
+}
+.dirwrap{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.wrap404{
+	height: 600px;
+	padding-top: 10%;
+	padding-bottom: 10%;
+    background-color: #393939;
+}
+.cont404{
+	background-color: rgba(256,256,256,0.2);
+	text-align: center;
+	color: #2CB87F;
+
+}
+.searchInf{
+	background-color: #393939;
+	color: #FFF;
+	margin-bottom: 10px;
+}
+.searchInf h2{
+	padding: 10px;
+	text-align: center;
+	color: #2CB87F;
+}
+.searchInf hr{
+	border: solid 1px #2CB87F;
+}
+.searchInf h5{
+	text-align: center;
+}
