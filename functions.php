@@ -11,3 +11,6 @@ include (get_template_directory().'/Includes/widgets.php');
 add_action('wp_enqueue_scripts','k_enqueue');
 add_action('after_setup_theme','k_setup_theme');
 add_action('widgets_init','k_widget');
+add_action('admin_notices','k_pluginDep');
+
+add_filter('excerpt_more','k_replaceEnd');

@@ -19,6 +19,7 @@
                     <div class="col-md-6" id="next"><?php next_post_link('%link','<span class="btn btn-primary">Next Post</span>'); ?></div>
                 </div>
                 <?php
+                // comments_template();
             }
         }
         ?>

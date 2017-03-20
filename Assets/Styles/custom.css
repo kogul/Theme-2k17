@@ -22,7 +22,16 @@
 	font-family: "Unica";
 	src: url('Font-Text/UnicaOne-Regular.ttf');
 }
-
+.alignleft{
+	float: left;
+}
+.alignright{
+	float: right;
+}
+.aligncenter{
+	display: block;
+	float: none;
+}
 .nav-side{
 	width: 200px;
 	background-color: #2D3736;
@@ -185,4 +194,31 @@
 }
 .searchInf h5{
 	text-align: center;
+}
+.foot{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: Pacifico;
+	text-align: center;
+	background-color: #393939;
+	color: #2CB87F;
+}
+.cform{
+	text-align: center;
+	background-color: #FFF;
+	padding: 5px;
+}
+.cform h2{
+	font-family: Alfa;
+	color: #000;
+}
+.commWrap{
+	padding: 10px;
+	text-align: left !important;
+}
+.commWrap h3{
+    font-family: Patua;
+}
+.commWrap p{
+	font-family: Orbitron;
 }
